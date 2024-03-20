@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos/style.css" />
+    <title>Power Electric</title>
+  </head>
+  <body>
+    <!-- Inicio etiqueta header -->
+    <header>
+      <h1>Power Electric</h1>
+      <!-- Inicio etiqueta nav -->
+      <nav>
+        <ul>
+          <li><img src="./img/facebook.png" alt="facebook" /></li>
+          <li><img src="./img/whatsapp.png" alt="whatsapp" /></li>
+          <li><img src="./img/instagram.png" alt="instagram" /></li>
+          <li><img src="./img/x.png" alt="x" /></li>
+        </ul>
+        <img src="./img/Logo.png" alt="logo" class="logo" />
+        <!-- <label class="hamburger">
+          <input type="checkbox" />
+          <svg viewBox="0 0 32 32">
+            <path
+              class="line line-top-bottom"
+              d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+            ></path>
+            <path class="line" d="M7 16 27 16"></path>
+          </svg>
+        </label> -->
+      </nav>
+    </header>
+    <main>
+      <article class="blanco" id="frase">
+        <section>
+          <p>"La única manera de hacer un gran trabajo es amar lo que haces"</p>
+          <b>Steve Jobs</b>
+        </section>
+        <img src="./img/contadoresLuz.jpg" alt="contadores de luz" />
+      </article>
+      <!-- Article de trabajos -->
+      <article class="trabajos">
+        <h2>Nuestros Trabajos</h2>
+        <div class="servicios">
+          <section>
+            <img src="./img/elec-web.jpg" alt="instalacion de tomacorriente" class="tomacorriente" />
+            <h3>Instalación de tomacorriente</h3>
+            <p>Tomacorriente polarizado 120v/15A</p>
+          </section>
+          <section>
+            <img src="./img/instalaccionProtecciones.png" alt="instalacion de protecciones" class="protecciones" />
+            <h3>Instalación de protecciones</h3>
+            <p>Breaker termomagnético 3x50A</p>
+          </section>
+          <section>
+            <img src="./img/medicionesElectricas.jpg" alt="Mediciones electricas" class="mediciones" />
+            <h3>Mediciones eléctrias</h3>
+            <p>Medición de tensión eléctrica en CCM</p>
+          </section>
+        </div>
+      </article>
+      <!-- Article de Proyectos -->
+      <article class="proyectos">
+        <h2>Asesor de Proyectos Eléctricos</h2>
+        <section>
+          <section class="perfil">
+            <img src="./img/IngenieroElectrico.jpeg" alt="Ingeniero Electrico" />
+            <p>Armando Larios</p>
+          </section>
+          <section class="experiencia">
+            <ul>
+              <li>Master en sistemas de potencia</li>
+              <li>Ingeniero eléctrico</li>
+              <li>Diez años en el área de planificación operativa de sistemas eléctricos</li>
+              <li>
+                Diez años en el área de planificación de la generación y transmisión de mediano y largo plazo de
+                sistemas eléctricos de potencia
+              </li>
+              <li>Cinco años en el área de desarrollo aplicación de normas de regulación</li>
+              <li>Experiencia específica en la ejecución de estudios de redes eléctricas de sitemas de potencia</li>
+            </ul>
+          </section>
+        </section>
+      </article>
+      <!-- Article de Contacto -->
+      <article class="contacto">
+        <h2>Contacto</h2>
+        <h3>Formulario de contacto</h3>
+        <p>¿Tienes un proyecto con el que necesites ayuda?</p>
+        <section class="formulario">
+          <form accept-charset="UTF-8" action="" autocomplete="on" method="GET" target="_blank">
+            <!-- <label for="nombre">Nombre completo*</label>
+            <input name="nombre" type="text" id="nombre" />
+            <label for="correo">Dirección de correo *</label>
+            <input name="correo" type="email" id="correo" />
+            <label for="empresa">Nombre de la empresa</label>
+            <input name="empresa" type="text" id="empresa" />
+            <label for="trabajo">Puesto de trabajo</label>
+            <input name="trabajo" type="text" id="trabajo" /> -->
+
+            <div class="opciones">
+              <label for="nombre">Nombre completo*</label>
+              <label for="correo">Dirección de correo *</label>
+              <label for="empresa">Nombre de la empresa</label>
+              <label for="trabajo">Puesto de trabajo</label>
+            </div>
+            <div class="inputs-contenedor">
+              <input name="nombre" type="text" id="nombre" />
+              <input name="correo" type="email" id="correo" />
+              <input name="empresa" type="text" id="empresa" />
+              <input name="trabajo" type="text" id="trabajo" />
+            </div>
+          </form>
+          <div class="mensaje">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje"></textarea>
+          </div>
+        </section>
+        <button type="submit" value="Submit">Solicitar Asesoria</button>
+      </article>
+    </main>
+    <footer><p>POWER ELECTRIC 2023&copy;</p></footer>
+  </body>
+</html>

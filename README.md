@@ -30,7 +30,7 @@ Este repositorio contiene la práctica realizada como parte del curso de Desarro
 
 1. **Clonar el Repositorio**: Copia este repositorio en tu máquina local ejecutando el siguiente comando en tu terminal:
     ```bash
-    git clone <https://github.com/Danilo0203/powerElectric.git>
+    git clone https://github.com/Danilo0203/powerElectric.git
     ```
 
 2. **Abrir la Página**: Una vez que hayas clonado el repositorio, abre el archivo HTML principal en tu navegador web para visualizar la página.
